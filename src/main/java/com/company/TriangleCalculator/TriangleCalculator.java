@@ -1,4 +1,4 @@
-package com.company;
+package com.company.TriangleCalculator;
 
 import java.util.Scanner;
 
@@ -10,6 +10,6 @@ public class TriangleCalculator {
         System.out.println("Please enter length of opposite side of right triangle:");
         double opp = Integer.parseInt(scan.nextLine());
         double hyp = Math.sqrt((adj * adj) + (opp * opp));
-        
+
     }
 }
